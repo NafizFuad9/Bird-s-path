@@ -398,9 +398,7 @@ margin-bottom: 10px;}
 .p1 img{height: 200px;
 width: 400px;
 padding: 10px;}
-
-
-
+.navIcon{display: none;}
 
 
 
@@ -547,3 +545,58 @@ font-size: 16px;
 font-weight: 300;
 }
 .price{font-size: 20px;}
+
+@media (width < 600px)  {
+    body{max-width: 600px;}
+    nav a{display: none;}
+    .navIcon{display: block;}
+.popularcollab{display:block;}
+.lostcollab{display: block;}
+.lostcollab>div{display: block;
+width: 80%;}
+
+.video{margin-left: 0;
+padding-left: 0;
+width: 600px}
+
+.row-1{display:flex ;
+    flex-direction: column;
+width: 599px ;}
+.row-2{display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+width: 599px;}
+
+
+.row-1,.row-2,.row-3 {
+    display: block;
+    justify-content: left;
+}
+.row-2>.srilanka{width: 60% ;}
+.row-2>.northamerica{width:60% ;}
+.row-2>.kashmir{width:60% ;}
+.row-3> .bangladesh{width: 100%;}
+.row-3> .bandarban{width: 100%;}
+.banner{
+    height: 1000px;
+}
+
+.priceGar{justify-content: left;
+margin-left: 0;}
+.p1{display: block;}
+.divCollab{display: block;}
+.save{position: relative;
+left: 70px;}
+.save img{width: 100%};
+
+.pacage1{width: 70%;
+height: 500px;
+margin-left: 0px;}
+.dealsDiscount{width: 70%;}
+    }
+    
+    
+
+
+
+
