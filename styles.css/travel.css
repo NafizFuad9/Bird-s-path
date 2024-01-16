@@ -1,10 +1,66 @@
 body{max-width: 1200px;
 margin: 0 auto;}
 
+.popularcollab{display: flex;}
+.popularTextContainer{text-align: left;}
+.popularTitle{color: #131318;
+  text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+     font-weight: 800;
+   }
+.popularDescrip{
+    color: rgba(19, 19, 24, 0.70);
+text-align: left;
+font-family: Mulish;
+font-size: 16px;
 
-.placeImages{
-    border: 10px solid red;
+font-weight: 400;
+line-height: 26px;
 }
+.popTour{
+    font-weight: bold;
+    font-size: larger;
+}
+.readButton{
+    background-color: #FF5400;
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px;
+border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chooseDivTitle{
+color: #131318;
+text-align: center;
+font-size: 24px;
+font-weight: 800;
+}
+.whyRow1{display: flex;}
+
 
 .whyusDescrip{
 
@@ -14,6 +70,8 @@ font-family: Mulish;
 font-size: 16px; 
 font-weight: 400;
  }
+
+
 
 
 
@@ -28,7 +86,45 @@ font-size: 40px;
 font-weight: 800;
 
 }
+.whyRow1 p,.chooseDivTitle{
+    text-align: left;
+ }
+ .priceGar h3,.whyusDescrip{text-align: left;}
+.whyusDivDescrip{
 
+    color: rgba(19, 19, 24, 0.70);
+text-align: left;
+font-family: Mulish;
+font-size: 16px; 
+font-weight: 400;
+padding-top: 0px;
+}
+
+.chooseDivTitle{padding-bottom: 0px;}
+.pickHotels{margin-right: 10px;
+    padding-left: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+}
+.service{margin-left: 10px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+padding-left: 20px;
+}
+
+.priceGar{justify-content: center;
+    width: 573px;
+height: 284px;
+padding-left: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+margin-top: 24px;
+margin-left: 300px;}
 .placeImages >div>div{
     color:white;
     font-size: 24px;
