@@ -393,7 +393,11 @@ line-height: 26px;
 
 
 
-
+.p1{display:flex;
+margin-bottom: 10px;}
+.p1 img{height: 200px;
+width: 400px;
+padding: 10px;}
 
 
 
@@ -405,7 +409,8 @@ line-height: 26px;
 
 
 .divCollab
-{display: flex;
+{margin-top: 30px;
+    display: flex;
 gap: 30px;
 
 }
@@ -502,22 +507,6 @@ transform: rotate(-35deg);
    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
