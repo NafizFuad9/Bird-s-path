@@ -1,6 +1,102 @@
 body{max-width: 1200px;
 margin: 0 auto;}
 
+
+.placeImages{
+    border: 10px solid red;
+}
+
+.whyusDescrip{
+
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px; 
+font-weight: 400;
+ }
+
+
+
+
+ .whyusTitle{
+color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+
+font-weight: 800;
+
+}
+
+.placeImages >div>div{
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 550px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 10px;
+   background-size: cover;
+}
+.row-1{
+    display: flex;
+}
+.row-2{
+    display: flex;
+}
+.row-3{
+    display: flex;
+}
+
+
+.Maldives{background-image: url(../images/maldivs.png);}
+        .Indonesia{background-image: url(../images/indonesia.png);}
+        .srilanka{background-image: url(../images/stilanka.png);}
+       .northamerica{background-image: url(../images/northAmerica.png);}
+       .kashmir{background-image: url(../images/kashmir.png);}
+     .bangladesh{background-image: url(../images/bangladesh.png);}
+    .bandarban{background-image: url(../images/bandarban.png);}
+
+
+.row-1>.Maldives{width: 50%;}
+.row-1>.Indonesia{width: 50%;}
+.row-3> .bangladesh{width: 40%;}
+.row-3> .bandarban{width: 60%;}
+.row-2>.srilanka{width:33% ;}
+.row-2>.northamerica{width:43% ;}
+.row-2>.kashmir{width:23% ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .dealsDiscount{width:1200px;
     padding: 10px;
     margin-bottom: 10px;
