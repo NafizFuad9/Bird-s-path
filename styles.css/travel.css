@@ -99,23 +99,6 @@ padding: 10px;
 border-radius: 5px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .chooseDivTitle{
 color: #131318;
 text-align: center;
@@ -133,13 +116,7 @@ font-family: Mulish;
 font-size: 16px; 
 font-weight: 400;
  }
-
-
-
-
-
-
- .whyusTitle{
+.whyusTitle{
 color: #131318;
 
 text-align: center;
@@ -232,30 +209,6 @@ margin-left: 300px;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .dealsDiscount{width:1200px;
     
     padding-left: 10px;
@@ -267,8 +220,6 @@ text-align: center;
 font-family: Mulish;
 font-size: 40px;
 font-weight: 800;
-
-
 }
 
 .dealsDiscountDescrip{
@@ -283,11 +234,11 @@ line-height: 26px;
 
 
 .pacage1{
+    width: 1200px;
     height: 700px;
     background-image: url(../images/pakage1.png);
     background-repeat: no-repeat;
-
-  
+    font-size: 16px;
     
 }
 
@@ -298,20 +249,14 @@ color: #5A5A5D;
 font-size: 8px;
 font-weight: 400;
 text-align: left;
-border-radius: 16px;
-border: 2px solid #FFF;
-
 background: rgba(255, 255, 255, 0.80);
-
-backdrop-filter: blur(2.5px);
-
-width: 579px;
+width: 500px;
 height: 550px;
-flex-shrink: 0;
+
 
 }
 
-.pakageTitle{
+.pakageTitle{margin-left: 20px;
     color: #131318;
 font-size: 24px;
 font-weight: 800;
@@ -350,6 +295,8 @@ padding: 3px;
     background-repeat: no-repeat;
 
 }
+
+
  .pakageDescrip2{
     position: relative;
     left: 50px;
@@ -366,7 +313,7 @@ backdrop-filter: blur(2.5px);
 
 width: 579px;
 height: 550px;
-flex-shrink: 0;
+
 }
 
 .pacage3{
@@ -382,11 +329,12 @@ flex-shrink: 0;
 
 .pakageDescrip p{
     font-size: 16px;
+   padding: 10px;
 }
 
 .price{color: #FF5400;
     font-family: Mulish;
-    font-size: 20px;
+    font-size: 16px;
  text-align: left;
     font-weight: 800;
 }
@@ -464,6 +412,7 @@ gap: 30px;
 .newsletter{
 border:1px solid #FF5400;
 width: 50%;
+padding: 20px;
 
 }
 .newsletter input {
@@ -476,14 +425,14 @@ background: rgba(19, 19, 24, 0.05);
 .newTitle{
 
 color: #131318;
-font-size: 24px;
+font-size: 40px;
 font-weight: 800;
 padding-bottom: 0px;
 
 }
 
 .newdecrip{
-    padding-top: 0px;
+    margin-top: 0px;
     padding-left: 10px;
     width: 350px;
     color: #5A5A5D;
@@ -493,7 +442,7 @@ text-align: left;
 }
 
 .subButton{margin-left: 10px;
-   width: 80%;
+   width: 85%;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FF5400;
@@ -509,7 +458,7 @@ text-align: left;
 
 
 .savePart{width: 50%;
-    /* width: 672px; */
+    
 height: 422px;
 border-radius: 16px;
 background-image: url(../images/Rectangle\ 8\ \(1\).png);
@@ -532,8 +481,8 @@ border-radius: 20px;
 height: 150px;
 width: 280px;
 position: relative;
-left: 360px;
-top: 200px;
+left: 270px;
+top: 175px;
 transform: rotate(-35deg);
 }
 
@@ -608,3 +557,4 @@ padding-bottom: 20px;
 font-size: 16px;
 font-weight: 300;
 }
+.price{font-size: 20px;}
